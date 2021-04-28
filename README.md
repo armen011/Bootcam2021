@@ -9,13 +9,6 @@ Let intorduce me
 - I am from Gyumri
 - I am intersted in programming
 
-## Hobbies
-
-> Programming
-> Drawing
-> Football
-> Speed
-
 ## Tech
 
 Dillinger uses a number of open source projects to work properly:
