@@ -105,3 +105,197 @@ function getMaxSubSum(arr) {
   return maxSubSum;
 }
 console.log(getMaxSubSum([-1, -2, -3]));
+
+//CONDITIONAL BRANCHING
+//if(a string with zero )
+
+// if ("0") {
+//   alert( 'Hello' );
+// } //will alert Hello because "0" is string and it's truthy
+
+//The name of JS
+
+// let JSname = prompt("What's the “official” name of JavaScript?");
+// if (JSname === "ECMAScript") {
+//   alert("Right");
+// } else {
+//   alert(`You don't know?
+//           “ECMAScript”!`);
+// }
+
+//Show the sign
+
+// let userNumber = prompt("input number");
+// if (userNumber > 0) {
+//   alert("1");
+// } else if (userNumber < 0) {
+//   alert("-1");
+// } else {
+//   alert("0");
+// }
+
+//Rewrite 'if' into '?'
+
+//Task 1
+let result;
+let a = 1;
+let b = 1;
+// if (a + b < 4) {
+//   result = "Below";
+// } else {
+//   result = "Over";
+// }
+a + b < 4 ? (result = "Below") : (result = "Over");
+console.log(result);
+//Task 2
+let message;
+let login = "Director";
+
+// if (login == "Employee") {
+//   message = "Hello";
+// } else if (login == "Director") {
+//   message = "Greetings";
+// } else if (login == "") {
+//   message = "No login";
+// } else {
+//   message = "";
+// }
+login === "Employee"
+  ? (message = "Hello")
+  : login === "Director"
+  ? (message = "Greetings")
+  : login == ""
+  ? (message = "No login")
+  : (message = "");
+console.log(message);
+
+//SWITCH
+
+//Rewrite 'switch' into an 'if'
+
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+let browser = "Edge";
+if (browser === "Edge") {
+  console.log("You've got the Edge!");
+} else if (
+  browser === "Chrome" ||
+  browser === "Firefox" ||
+  browser === "Safari" ||
+  browser === "Opera"
+) {
+  console.log("Okay we support these browsers too");
+} else {
+  console.log("We hope that this page looks ok!");
+}
+
+//Rewrite 'if' into 'switch
+
+// let a = +prompt('a?', '');
+
+// if (a == 0) {
+//   alert( 0 );
+// }
+// if (a == 1) {
+//   alert( 1 );
+// }
+
+// if (a == 2 || a == 3) {
+//   alert( '2,3' );
+// }
+let num = 3;
+switch (num) {
+  case 0:
+    console.log("0");
+    break;
+  case 1:
+    console.log("1");
+    break;
+  case 2:
+  case 3:
+    console.log("2,3");
+    break;
+}
+
+//LOOPS
+
+//Last loop value
+
+// let i = 3;
+// while (i) {
+//   alert( i-- );
+// } //the last alert will be '1' because while works till i=0,if increment was --i last will be 0
+
+//Which values does the while loop show?
+
+// let i = 0;
+// while (++i < 5) alert( i );
+// this loop's alerts [1,2,3,4]
+
+// let i = 0;
+// while (i++ < 5) console.log(i);
+// this loop's alerts [1,2,3,4,5]
+
+//Alerts are not the same
+
+//Output even numbers in the loop from 2 to 10
+
+for (let i = 2; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+//replace for with while
+// for (let i = 0; i < 3; i++) {
+//   alert( `number ${i}!` );
+// }
+let i = 0;
+while (i < 3) {
+  console.log(`number ${i++}`);
+}
+
+//Repeat until the input is correct
+
+// let numberForPromt = 0;
+// while (numberForPromt <= 100) {
+//   numberForPromt = prompt("Input number greater then 100");
+//   if (numberForPromt === "") {
+//     break;
+//   }
+// }
+
+//Output prime numbers
+let n = 20;
+for (let i = 2; i < n; i++) {
+  let bool = true;
+  if (i === 2) {
+    console.log(2);
+  }
+  if (i % 2 === 0) {
+    continue;
+  }
+  for (let j = 3; j < i - 2; j += 2) {
+    if (i % j === 0) {
+      bool = false;
+      break;
+    }
+  }
+  if (bool) {
+    console.log(i);
+  }
+}
