@@ -24,7 +24,21 @@
 // //console.log(sum(1, 2)); // prints 3
 // console.log(sum(1, 2, 3)); // prints 6
 
-//3 How to pass arguments in sum function?
+// //3 How to pass arguments in sum function?
+
+// function sum(x, y, z) {
+//   return x + y + z;
+// }
+// const numbers = [1, 2, 3];
+// [x, y, z] = numbers;
+// console.log(sum(x, y, z)); // prints 6
+
+//4.
+let a = 3;
+let b = 6;
+[a, b] = [b, a];
+console.log(a); //6
+console.log(b); //3
 
 // //5.SORT
 // const sortBy = (arr, met) => {
@@ -175,24 +189,24 @@
 // const arr = [1, 22, 55, 166, 5, 36, 11, 205, 333, 95, 62, 10, 43];
 // console.log(sumOverAndEqualTo18(arr));
 
-//2.Write a function which calculates average age of users.
-const getAverageAge = (arr) => {
-  const average = (acc, user) => {
-    return acc + user.age;
-  };
-  let averAge = arr.reduce(average, 0) / arr.length;
-  return averAge;
-};
-const users = [
-  {
-    username: "Yuri Gagarin",
-    lang: "ru",
-    age: 56,
-  },
-  {
-    username: "Nil Armstrong",
-    lang: "ENG",
-    age: 54,
-  },
-];
-console.log(getAverageAge(users));
+// //2.Write a function which calculates average age of users.
+// const getAverageAge = (arr) => {
+//   const average = (acc, user) => {
+//     return acc + user.age;
+//   };
+//   let averAge = arr.reduce(average, 0) / arr.length;
+//   return averAge;
+// };
+// const users = [
+//   {
+//     username: "Yuri Gagarin",
+//     lang: "ru",
+//     age: 56,
+//   },
+//   {
+//     username: "Nil Armstrong",
+//     lang: "ENG",
+//     age: 54,
+//   },
+// ];
+// console.log(getAverageAge(users));
