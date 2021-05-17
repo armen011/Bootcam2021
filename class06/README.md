@@ -2,7 +2,7 @@
 
 ## _What will be the result and why?_
 
-##_Task01_
+## _Task01_
 
 ```sh
 let n =  "" + 1 + 0
