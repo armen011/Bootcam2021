@@ -1,0 +1,15 @@
+.whether{
+    width: 90%;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.day{
+    width: 13%;
+    height: 100%;
+    border:1px solid black;
+}
