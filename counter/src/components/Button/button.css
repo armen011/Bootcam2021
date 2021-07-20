@@ -1,0 +1,28 @@
+.primary {
+  border: 0;
+  background-color: green;
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+.secondary {
+  border: 0;
+  background-color: red;
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+.secondary2 {
+  border: 0;
+  background-color: blue;
+  color: white;
+  width: 50px;
+  height: 30px;
+}
+.disabled {
+  border: 0;
+  background-color: grey;
+  color: white;
+  width: 50px;
+  height: 30px;
+}

@@ -1,0 +1,21 @@
+label {
+  color: white;
+}
+.primaryInput {
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid green;
+}
+.secondaryInput {
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid red;
+}
+.secondaryInput2 {
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid blue;
+}

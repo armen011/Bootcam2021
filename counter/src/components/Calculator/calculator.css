@@ -1,0 +1,32 @@
+.calculator {
+  width: 300px;
+  height: 400px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+.calculator .btnsBar {
+  width: 80%;
+  height: 30px;
+}
+.calculator .displayBar {
+  width: 180px;
+  height: 200px;
+  font-size: 65px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator .inputBar {
+  width: 180px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
