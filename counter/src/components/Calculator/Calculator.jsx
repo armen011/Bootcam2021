@@ -51,7 +51,7 @@ export default class Calculator extends React.Component {
       +this.state.clickCount - this.state.step
     );
     this.setState((prevState) => ({
-      clickCount: parseInt(prevState.clickCount) - parseInt(this.state.step),
+      clickCunt: parseInt(prevState.clickCount) - parseInt(this.state.step),
     }));
   };
   handleReset = () => {

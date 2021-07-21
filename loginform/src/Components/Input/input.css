@@ -1,0 +1,72 @@
+.globalInput {
+  height: 62px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.globalInput input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  padding-left: 15px;
+  font-size: 21px;
+}
+.globalInput span {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: red;
+}
+.globalInput i {
+  color: rgba(74, 162, 74, 255);
+  position: absolute;
+  right: -22px;
+  font-size: 18px;
+  top: 10px;
+}
+.small {
+  width: 45%;
+}
+.medium {
+  width: 88%;
+}
+.custom {
+  width: 88%;
+  height: 62px;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+}
+.custom input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  padding-left: 15px;
+  font-size: 21px;
+}
+.custom select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #d1d1d1;
+}
+.globalInput img {
+  width: 40px;
+  position: absolute;
+  border: 0;
+  right: 10px;
+  height: 40px;
+}
+.custom i {
+  color: rgba(74, 162, 74, 255);
+  position: absolute;
+  right: -22px;
+  font-size: 18px;
+  top: 10px;
+}
+.custom span {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: red;
+}
